@@ -15,7 +15,7 @@ describe 'Bad usage' do
     # When I take "50" coffees
     i_take_coffee_number_coffees(50)
     # Then message "Empty grounds" should be displayed 
-    message_message_should_be_displayed("Empty grounds 3 ")
+    message_message_should_be_displayed("Empty grounds  3 ")
     # And coffee should be served
     coffee_should_be_served
   end
